@@ -1,0 +1,21 @@
+bin/
+
+# Ignore Go build artifacts
+*.exe
+*.out
+*.test
+*.dll
+*.so
+*.dylib
+
+# Ignore Go module files
+go.sum
+
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+models.md
